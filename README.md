@@ -5,3 +5,10 @@ Este repositorio contiene el diseño conceptual inicial de un sistema de gestió
 ## Anexos
 
 Puedes encontrar información adicional en el [archivo de anexos](anexos.md).
+
+| **Fernando Molina**                       |
+|------------------------------------------ |
+| **Carrera:** Programación                 |
+| **Materia:** Diseño orientado a objetos   |
+| **Profesor:**  Lic. Matias Velasquez      |
+| **Año:** 2025                             |
