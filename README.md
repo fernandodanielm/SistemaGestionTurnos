@@ -8,7 +8,7 @@ Año: 2025
 ## Anexos
 
 Puedes encontrar información adicional en el [archivo de anexos](anexos.md).
-<<<<<<< HEAD
+
 
 | **Fernando Molina**                       |
 |------------------------------------------ |
@@ -16,5 +16,3 @@ Puedes encontrar información adicional en el [archivo de anexos](anexos.md).
 | **Materia:** Diseño orientado a objetos   |
 | **Profesor:**  Lic. Matias Velasquez      |
 | **Año:** 2025                             |
-=======
->>>>>>> 5228dd9492a8ac0652a1d134fde6b6e9e37401dc
