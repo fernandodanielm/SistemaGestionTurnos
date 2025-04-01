@@ -121,7 +121,6 @@ La POO es importante porque facilita:
     * **Precondiciones:** El paciente está registrado en el sistema. El actor tiene acceso al sistema.
     * **Postcondiciones:** Se muestra el historial de turnos del paciente solicitado.
 
-## Boceto Inicial del Diseño de Clases
 
 ## Boceto Inicial del Diseño de Clases
 
