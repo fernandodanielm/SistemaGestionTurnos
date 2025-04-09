@@ -37,7 +37,3 @@ A continuación, se presentan los diagramas de casos de uso para el sistema de g
 ![Diagrama de Casos de Uso 5](/Actividad-n°2/imagenes/dcu5.jpg)
 
 
-
-## Escenarios de Casos de Uso
-
-[Ver Escenarios de Casos de Uso](escenarios_de_caso_de_uso.md)
