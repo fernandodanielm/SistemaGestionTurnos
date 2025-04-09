@@ -10,12 +10,10 @@ Puedes encontrar información adicional en el:
 * [Escenarios de Casos de Uso](/Actividad-n°2/docs/escenarios_de_casos_de_uso.md)
 * [Herramientas Agile](/Actividad-n°2/docs/herramientas_agile.md)
 
-<p align="center">
-|**Fernando Molina**                     |
-|----------------------------------------|
-|**Carerra:** Programación               | 
-|**Materia:** Diseño Orientado a objetos |
-|**Profesor:** Lic. Matias Velazquez     |
-|**Año:** 2025                           |
-
-</p>
+<!-- Simulación de centrado -->
+   | **Fernando Molina**                     |
+   |---------------------------------------- |
+   | **Carrera:** Programación               |
+   | **Materia:** Diseño Orientado a objetos |
+   | **Profesor:** Lic. Matias Velazquez     |
+   | **Año:** 2025                           |
