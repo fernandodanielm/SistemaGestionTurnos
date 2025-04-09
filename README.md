@@ -9,7 +9,6 @@ Puedes encontrar información adicional en el
 * [Diagramas de Casos de Uso](/Actividad-n°2/diagramas/diagramas_de_casos_de_uso.md)
 * [Escenarios de Casos de Uso](/Actividad-n°2/docs/escenarios_de_casos_de_uso.md)
 * [Herramientas Agile](/Actividad-n°2/docs/herramientas_agile.md)
-* [IntroducciónActividadN°1](introduccion-actividadn1.md)
 
 
 | **Fernando Molina**                       |
