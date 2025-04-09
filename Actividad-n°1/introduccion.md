@@ -127,7 +127,7 @@ La POO es importante porque facilita:
 
 Este es el boceto inicial del diseño de clases, incrustado como una imagen y con un enlace para su visualización.
 
-[![Boceto de Clases](SistemaGestionDeTurnos.jpg)
+[![Boceto de Clases](/Actividad-n°1/SistemaGestionDeTurnos.jpg)
 
 [Enlace para visualizar el boceto en línea](https://1drv.ms/i/c/f2bf844ed8279638/EQAHqDxcjPtFin4mgWPrY9sB9WBt2ldDwuvn-qlq2V_IQQ?e=bTCOKZ)
 

@@ -16,4 +16,4 @@ Este repositorio contiene el diseño conceptual inicial de un sistema de gestió
 
 Este enlace dentro del **README.md** dirige al archivo **introduccion.md**.
 
-[Anexo - Introducción al Diseño Orientado a Objetos](introduccion.md)
+[Anexo - Introducción al Diseño Orientado a Objetos](/Actividad-n°1/introduccion.md)
