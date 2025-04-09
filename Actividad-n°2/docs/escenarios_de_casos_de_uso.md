@@ -4,7 +4,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 
 
 
-**Table con md de 5 escenarios de caso de uso más imagen incrustrada de archivo excel**
+**Table con md de 5 escenarios de caso de uso más imagen incrustrada de archivo excel, dejo los enlaces para acceder ver las imagenes del excel**
 # Escenario de caso de uso 1
 
 | **Nombre del caso de uso**     | Solicitar Turno Médico                    |
@@ -26,6 +26,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 | **Riesgo**                     | Fallas en el sistema pueden afectar la disponibilidad. |
 
 ![Escenario de caso de uso 1](/Actividad-n°2/imagenes/escenariocasodeuso1.png)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/ER48qBWQi3pArQ-2Iuh3yskBGNIqRk0BpBCrs4A12uAW3Q?e=q2zYDX)
 
 # Escenario de caso de uso 2
 
@@ -48,6 +49,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 | **Riesgo**                     | Errores en notificaciones pueden confundir a los pacientes. |
 
 ![Escenario de caso de uso 2](/Actividad-n°2/imagenes/escenariodecasodeuso2.png)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EQh2hG0_watFrO_4ZKSfchcBJ7WHxeSA4Dc4eJY98p7jZA?e=EdSGEe)
 
 # Escenario de caso de uso 3
 
@@ -70,6 +72,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 | **Riesgo**                     | Información desactualizada podría causar confusión en la reserva de turnos. |
 
 ![Escenario de caso de uso 3](/Actividad-n°2/imagenes/escenariodecasodeuso3.png)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EarX62rva7lAqG0ab09ZR1gBSJSA-5lQD-KzWCMRe6whwg?e=s33yAy)
 
 # Escenario de caso de uso 4
 
@@ -92,6 +95,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 | **Riesgo**                     | Errores en el formulario o datos duplicados podrían impedir el registro exitoso. |
 
 ![Escenario de caso de uso 4](/Actividad-n°2/imagenes/escenariodecasodeuso4.png)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EfuY2TSTpu5HuvRawNKg-gsBpEdIR5_8WKLhtz39BVUXDg?e=SYb8UA)
 
 # Escenario de caso de uso 5
 
@@ -114,5 +118,7 @@ A continuación, se definirá un escenario detallado para los 5 escenarios de ca
 | **Riesgo**                     | Fallas en la programación automática podrían impactar la experiencia del paciente. |
 
 ![Escenario de caso de uso 5](/Actividad-n°2/imagenes/escenariodecasodeuso5.png)
+
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/ERgJ2dNlCNtHkGOUXr0QT2QBDKNRBSJ33oOqt0x6PGPFnQ?e=t4R6QI)
 
 
