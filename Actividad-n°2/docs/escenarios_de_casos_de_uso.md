@@ -149,12 +149,67 @@ Estos escenarios ahora detallan los pasos de una manera que podría reflejar un 
 
 **También cree una table en md con 5 escenarios de caso de uso**
 
-| Caso de Uso                       | Descripción                                                                                                                                                              | Actores Involucrados | Métodos Involucrados                                                                    |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------------------------------------------------------|
-| **Confirmar Asistencia a Turno** | El Paciente confirma su asistencia a un turno programado a través del sistema (ej. respondiendo a una notificación o mediante una opción en la interfaz).                  | Paciente             | sistema.confirmarAsistencia(Turno: turno)                                                |
-| **Registrar Llegada del Paciente**| La Recepcionista registra la llegada de un paciente al centro de salud para su turno. Esto podría disparar alertas al médico.                                           | Recepcionista        | sistema.registrarLlegadaPaciente(Turno: turno)                                           |
-| **Gestionar Usuarios del Sistema**| El Administrador crea, edita o elimina cuentas de usuario para el personal del centro de salud (Recepcionistas, Médicos, otros Administradores).                            | Administrador        | sistema.crearUsuario(Usuario: usuario), sistema.editarUsuario(Usuario: usuario), sistema.eliminarUsuario(String: nombreUsuario) |
-| **Enviar Recordatorios de Turno** | El sistema envía automáticamente recordatorios de los próximos turnos a los pacientes (ej. un día antes o unas horas antes de la cita).                                  | Sistema              | sistema.enviarRecordatorioTurno(Turno: turno)                                           |
-| **Archivar Historial de Turnos** | El Administrador gestiona el archivo de turnos antiguos o finalizados para optimizar la base de datos y cumplir con políticas de retención de datos.                       | Administrador        | sistema.archivarHistorialTurnos(Fecha: fechaLimite)                                     |
+| **Nombre del caso de uso**     | Solicitar Turno Médico                    |
+|--------------------------------|-------------------------------------------|
+| **ID única**                   | CU-001                                    |
+| **Área**                       | Gestión de Turnos                         |
+| **Actor(es)**                  | Paciente, Sistema                         |
+| **Descripción**                | El paciente solicita un turno médico.     |
+| **Activar evento**             | Selección de "Solicitar Turno".           |
+| **Tipo de señal**              | Externa                                   |
+| **Pasos desempeñados (ruta principal)** | 1. Acceder al sistema. <br> 2. Seleccionar consulta y médico. <br> 3. Ver horarios disponibles. <br> 4. Confirmar solicitud. <br> 5. Recibir correo de confirmación. |
+| **Precondiciones**             | El paciente debe estar registrado.        |
+| **Poscondiciones**             | El turno queda asignado correctamente.    |
+| **Suposiciones**               | El médico tiene disponibilidad.           |
 
+| **Nombre del caso de uso**     | Cancelar Turno Médico                     |
+|--------------------------------|-------------------------------------------|
+| **ID única**                   | CU-002                                    |
+| **Área**                       | Gestión de Turnos                         |
+| **Actor(es)**                  | Paciente, Sistema                         |
+| **Descripción**                | El paciente cancela un turno asignado.    |
+| **Activar evento**             | Selección de "Cancelar Turno".            |
+| **Tipo de señal**              | Externa                                   |
+| **Pasos desempeñados (ruta principal)** | 1. Iniciar sesión. <br> 2. Seleccionar turno asignado. <br> 3. Opción "Cancelar Turno". <br> 4. Verificar plazo permitido. <br> 5. Recibir confirmación por correo. |
+| **Precondiciones**             | El paciente debe tener un turno asignado. |
+| **Poscondiciones**             | El turno queda disponible para otros.     |
+| **Suposiciones**               | La cancelación se realiza con antelación. |
 
+| **Nombre del caso de uso**     | Consultar Turnos Disponibles              |
+|--------------------------------|-------------------------------------------|
+| **ID única**                   | CU-003                                    |
+| **Área**                       | Gestión de Turnos                         |
+| **Actor(es)**                  | Paciente, Sistema                         |
+| **Descripción**                | El paciente consulta turnos disponibles.  |
+| **Activar evento**             | Selección de "Consultar Disponibilidad".  |
+| **Tipo de señal**              | Externa                                   |
+| **Pasos desempeñados (ruta principal)** | 1. Acceder al sistema. <br> 2. Especificar especialidad o médico. <br> 3. Mostrar horarios disponibles. |
+| **Precondiciones**             | El paciente debe estar registrado.        |
+| **Poscondiciones**             | Los horarios se muestran correctamente.   |
+| **Suposiciones**               | Los horarios están actualizados.          |
+
+| **Nombre del caso de uso**     | Registrar Nuevo Paciente                  |
+|--------------------------------|-------------------------------------------|
+| **ID única**                   | CU-004                                    |
+| **Área**                       | Gestión de Usuarios                       |
+| **Actor(es)**                  | Paciente, Sistema                         |
+| **Descripción**                | Registro de nuevos pacientes.             |
+| **Activar evento**             | Selección de "Registrarse".               |
+| **Tipo de señal**              | Externa                                   |
+| **Pasos desempeñados (ruta principal)** | 1. Completar formulario de registro. <br> 2. Validar datos ingresados. <br> 3. Crear usuario en el sistema. <br> 4. Recibir correo de confirmación. |
+| **Precondiciones**             | El paciente no debe estar registrado.     |
+| **Poscondiciones**             | Usuario creado exitosamente.              |
+| **Suposiciones**               | Los datos son correctos y no duplicados.  |
+
+| **Nombre del caso de uso**     | Recordatorio de Turnos                    |
+|--------------------------------|-------------------------------------------|
+| **ID única**                   | CU-005                                    |
+| **Área**                       | Comunicación con Pacientes                |
+| **Actor(es)**                  | Sistema, Paciente                         |
+| **Descripción**                | Envío automático de recordatorios de turnos. |
+| **Activar evento**             | Programación interna del sistema.         |
+| **Tipo de señal**              | Interna                                   |
+| **Pasos desempeñados (ruta principal)** | 1. Identificar turnos programados. <br> 2. Generar recordatorio con los datos del turno. <br> 3. Enviar recordatorio por correo o SMS. |
+| **Precondiciones**             | El paciente tiene un turno confirmado.    |
+| **Poscondiciones**             | El recordatorio es enviado correctamente. |
+| **Suposiciones**               | Los datos de contacto están actualizados. |
