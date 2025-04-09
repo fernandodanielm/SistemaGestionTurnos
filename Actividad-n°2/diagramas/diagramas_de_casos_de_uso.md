@@ -5,14 +5,14 @@ A continuación, se describirán brevemente los cinco casos de uso clave identif
 * **Caso de Uso 1 - Registrar nuevo paciente:**
 La recepcionista utiliza el sistema para ingresar y almacenar la información de un nuevo paciente que se registra en el centro de salud
 
-![Caso de Uso 1](/Actividad-n°2/imagenes/dcu1.jpg)
+![Caso de Uso 1](/Actividad-n°2/imagenes/dcu2.jpg)
 
 [Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EfwwihNlcWxEqFfC3PVzDV4BhkbJOdoOxYn0-NmDiktoOQ?e=bfjPDG)
 
 * **Caso de Uso 2 - Solicitar Turnos:** 
 El paciente utiliza el sistema para solicitar una cita médica, especificando sus preferencias de fecha, hora y motivo de la consulta.
 
-![Caso de Uso 2](/Actividad-n°2/imagenes/dcu2.jpg)
+![Caso de Uso 2](/Actividad-n°2/imagenes/dcu3.jpg)
 
 [Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EaTzaC9QBxpCuZEvBP-O8OABtMKMYAVlIUtKA-TPE9P9Tw?e=DEBgL4)
 
