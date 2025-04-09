@@ -7,21 +7,21 @@ La recepcionista utiliza el sistema para ingresar y almacenar la información de
 
 ![Caso de Uso 1](/Actividad-n°2/imagenes/dcu2.jpg)
 
-[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EfwwihNlcWxEqFfC3PVzDV4BhkbJOdoOxYn0-NmDiktoOQ?e=bfjPDG)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EaTzaC9QBxpCuZEvBP-O8OABtMKMYAVlIUtKA-TPE9P9Tw?e=gDYhTe)
 
 * **Caso de Uso 2 - Solicitar Turnos:** 
 El paciente utiliza el sistema para solicitar una cita médica, especificando sus preferencias de fecha, hora y motivo de la consulta.
 
 ![Caso de Uso 2](/Actividad-n°2/imagenes/dcu3.jpg)
 
-[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EaTzaC9QBxpCuZEvBP-O8OABtMKMYAVlIUtKA-TPE9P9Tw?e=DEBgL4)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EWW-NlyfzbNOmnuMzFL1KEQBpYd76jFn8ctN-m2ppCb89g?e=dejV8x)
 
 * **Caso de Uso 3 - Asignar Turno:**
 La Recepcionista utiliza el sistema para asignar un turno solicitado por un paciente a un médico específico en una fecha y hora disponible.
 
-![Caso de Uso 3](/Actividad-n°2/imagenes/dcu3.jpg)
+![Caso de Uso 3](/Actividad-n°2/imagenes/dcu1.jpg)
 
-[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EWW-NlyfzbNOmnuMzFL1KEQBpYd76jFn8ctN-m2ppCb89g?e=gnbz4m)
+[Accede a OneDrive](https://1drv.ms/i/c/f2bf844ed8279638/EfwwihNlcWxEqFfC3PVzDV4BhkbJOdoOxYn0-NmDiktoOQ?e=8Cm6kF)
 
 * **Caso de Uso 4 - Cancelar Turno:**
 Un Paciente o la Recepcionista utiliza el sistema para cancelar un turno previamente confirmado o pendiente.

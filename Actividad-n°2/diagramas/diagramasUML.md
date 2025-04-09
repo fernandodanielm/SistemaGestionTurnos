@@ -10,19 +10,19 @@ A continuación, se presentan los diagramas de casos de uso para el sistema de g
 
 ### Diagrama de Casos de Uso 1: Registrar nuevo paciente
 
-![Diagrama de Casos de Uso 1](/Actividad-n°2/imagenes/dcu1.jpg)
+![Diagrama de Casos de Uso 1](/Actividad-n°2/imagenes/dcu2.jpg)
 
 
 
 ### Diagrama de Casos de Uso 2: Solicitar Turnos
 
-![Diagrama de Casos de Uso 2](/Actividad-n°2/imagenes/dcu2.jpg)
+![Diagrama de Casos de Uso 2](/Actividad-n°2/imagenes/dcu3.jpg)
 
 
 
 ### Diagrama de Casos de Uso 3: Asignar Turno
 
-![Diagrama de Casos de Uso 3](/Actividad-n°2/imagenes/dcu3.jpg)
+![Diagrama de Casos de Uso 3](/Actividad-n°2/imagenes/dcu1.jpg)
 
 
 
