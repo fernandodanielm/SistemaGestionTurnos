@@ -10,7 +10,7 @@ Puedes encontrar información adicional en el
 * [Escenarios de Casos de Uso](/Actividad-n°2/docs/escenarios_de_casos_de_uso.md)
 * [Herramientas Agile](/Actividad-n°2/docs/herramientas_agile.md)
 
-
+<div align="center">
 | **Fernando Molina**                       |
 |------------------------------------------ |
 | **Carrera:** Programación                 |
