@@ -1,4 +1,4 @@
-# Escenarios de Casos de Uso Basados en Diagramas de Flujo (Hipotéticos)
+# Escenarios de Casos de Uso Basados en Diagramas de Caso de uso
 
 A continuación, se definirá un escenario detallado para el caso de uso "Registrar Nuevo Paciente", basado en un diagrama de flujo hipotético.
 
