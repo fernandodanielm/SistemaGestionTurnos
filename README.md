@@ -1,19 +1,5 @@
 # SistemaGestionTurnos
 
-Este repositorio contiene el diseño conceptual inicial de un sistema de gestión de turnos médicos para un pequeño centro de salud, aplicando los principios de la Programación Orientada a Objetos (POO). Este es el primer entregable del trabajo práctico de la materia Diseño Orientado a Objetos.
-Además agrego la introducción de la actividad N°1 con las correcciones pedidas
-## Anexos
-
-Puedes encontrar información adicional en el 
-* [Diagramas UML](/Actividad-n°2/diagramas/diagramasUML.md)
-* [Diagramas de Casos de Uso](/Actividad-n°2/diagramas/diagramas_de_casos_de_uso.md)
-* [Escenarios de Casos de Uso](/Actividad-n°2/docs/escenarios_de_casos_de_uso.md)
-* [Herramientas Agile](/Actividad-n°2/docs/herramientas_agile.md)
-
-Gracias por compartir el detalle. Por lo que noto, parece que el contenido de la tabla no se renderiza correctamente o no se centra como debería debido a un problema con el formato combinado de Markdown y HTML. Esto puede suceder porque Markdown y HTML no siempre interactúan perfectamente en algunas plataformas.
-Probemos una solución alternativa para centrar visualmente la tabla. Puedes usar solo HTML para asegurarte de un control completo sobre el diseño:
-# SistemaGestionTurnos
-
 Este repositorio contiene el diseño conceptual inicial de un sistema de gestión de turnos médicos para un pequeño centro de salud, aplicando los principios de la Programación Orientada a Objetos (POO). Este es el primer entregable del trabajo práctico de la materia Diseño Orientado a Objetos.  
 Además agrego la introducción de la actividad N°1 con las correcciones pedidas.  
 
