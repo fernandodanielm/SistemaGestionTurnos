@@ -1,6 +1,6 @@
 # Diagramas de Casos de Uso
 
-A continuación, se describirán brevemente los cinco casos de uso clave identificados para el sistema de gestión de turnos médicos. (Los diagramas visuales se agregarán en el archivo `diagramasUML.md`).
+A continuación, se describirán brevemente los cinco casos de uso clave identificados para el sistema de gestión de turnos médicos. (Los diagramas visuales se agregarán en el archivo `diagramasUML.md` aunque también los dejo acá).
 
 * **Caso de Uso 1 - Registrar nuevo paciente:**
 La recepcionista utiliza el sistema para ingresar y almacenar la información de un nuevo paciente que se registra en el centro de salud
