@@ -14,7 +14,7 @@ Las Tarjetas CRC (Clase, Responsabilidad, Colaborador) se utilizaron para modela
 **Colaboradores:** Agenda, Turno, Médico.
 **Propiedad:** nombre, apellido, fechaNacimiento, DNI, nroHistoriaClinica.
 
-![Tarjeta CRC Paciente](/imagenes/paciente.png)
+![Tarjeta CRC Paciente](/Actividad-n°2/imagenes/paciente.png)
 
 ### Tarjeta CRC: Médico
 
@@ -26,7 +26,7 @@ Las Tarjetas CRC (Clase, Responsabilidad, Colaborador) se utilizaron para modela
 **Colaboradores:** Agenda, Turno, Paciente.
 **Propiedad:** nombre, apellido, especialidad, matricula.
 
-![Tarjeta CRC Medico](/imagenes/medico.png)
+![Tarjeta CRC Medico](/Actividad-n°2/imagenes/medico.png)
 
 ### Tarjeta CRC: Turno
 
@@ -38,7 +38,7 @@ Las Tarjetas CRC (Clase, Responsabilidad, Colaborador) se utilizaron para modela
 **Colaboradores:** Paciente, Médico, Recepcionista.
 **Propiedad:** fecha, hora, estado (Pendiente, Atendido, Cancelado), motivoCancelacion (si aplica).
 
-![Tarjeta CRC Turno](/imagenes/turno.png)
+![Tarjeta CRC Turno](/Actividad-n°2/imagenes/turno.png)
 
 ### Tarjeta CRC: Agenda
 
@@ -50,7 +50,7 @@ Las Tarjetas CRC (Clase, Responsabilidad, Colaborador) se utilizaron para modela
 **Colaboradores:** Médico, Paciente, Turno.
 **Propiedad:** fechaInicio, fechaFin, medicoId, especialidadId.
 
-![Tarjeta CRC Agenda](/imagenes/agenda.png)
+![Tarjeta CRC Agenda](/Actividad-n°2/imagenes/agenda.png)
 
 ### Tarjeta CRC: Recepcionista
 
@@ -62,4 +62,4 @@ Las Tarjetas CRC (Clase, Responsabilidad, Colaborador) se utilizaron para modela
 **Colaboradores:** Paciente, Turno, Agenda, Médico.
 **Propiedad:** nombre, apellido, usuario, password.
 
-![Tarjeta CRC Recepcionista](/imagenes/recepcionista.png)
+![Tarjeta CRC Recepcionista](/Actividad-n°2/imagenes/recepcionista.png)
