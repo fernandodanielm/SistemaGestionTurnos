@@ -33,6 +33,12 @@ La POO es importante porque facilita:
     |------------|---------------|--------------|
     |**Persona** |Usa combinación|**CajaFuerte**|
 
+    ### Explicación
+
+    * Los atributos (objetosValiosos y combinación) están protegidos (indicados con - como privados).
+    * Los métodos (abrir(), cerrar(), verificarCodigo()) son públicos (indicados con +) y definen la interacción con la clase.
+    * La relación muestra cómo **Persona** interactúa con **CajaFuerte** utilizando los métodos.
+
 
 2.  **Abstracción:**
     * **Descripción:** La abstracción se centra en mostrar solo la información esencial de un objeto al mundo exterior, ocultando los detalles complejos de su implementación interna. Permite manejar la complejidad al enfocarse en "qué hace" un objeto en lugar de "cómo lo hace".
@@ -51,6 +57,12 @@ La POO es importante porque facilita:
     |**Elemento**|**Acción** |**Destino**  |
     |------------|-----------|-------------|
     |**Usuario** |Usa botones|**Televisor**|
+
+    ### Explicación
+
+    * La **Clase Televisor** encapsula los **atributos privados** (circuitosInternos y componentes), ocultando los detalles técnicos de su funcionamiento.
+    * Los **métodos públicos** (encender(), apagar(), cambiarCanal(), subirVolumen()) permiten a los usuarios interactuar con el televisor sin preocuparse por su implementación interna.
+    * La relación muestra que el **Usuario** solo accede a la funcionalidad esencial del televisor mediante botones.
 
 3.  **Herencia:**
     * **Descripción:** La herencia es un mecanismo que permite a una clase (clase hija o subclase) heredar atributos y métodos de otra clase (clase padre o superclase). Esto promueve la reutilización de código y la creación de jerarquías de clases con características comunes.
@@ -76,6 +88,12 @@ La POO es importante porque facilita:
      |-------------|-------------|------------|             
      |**Conductor**|Usa vehículo |**Vehículo**|
 
+     ### Explicación
+
+     * La **Clase Padre (Vehículo)** contiene atributos y métodos generales que serán heredados por las clases hijas.
+     * Las **Clases Hijas (Automóvil, Motocicleta, Camión)** amplian la funcionalidad de Vehículo agregando atributos y métodos especificos.
+     * La relación indica que un **Conductor** usa cualquiera de los vehículos, demostrando la aplicación del concepto de herencia.
+
 4.  **Polimorfismo:**
     * **Descripción:** El polimorfismo (que significa "muchas formas") permite que objetos de diferentes clases respondan al mismo mensaje (llamada a un método) de manera diferente. Esto proporciona flexibilidad y extensibilidad al código.
     * **Ejemplo del Mundo Real:** Considera la acción de "hacer un sonido". Un `Perro` hace "guau", un `Gato` hace "miau" y un `Pájaro` hace "pío". Todos responden al mismo concepto de "hacer un sonido", pero la forma en que lo hacen es diferente según su tipo. En POO, podrías tener un método llamado `emitirSonido()` que se comporta de forma distinta cuando se invoca en un objeto de la clase `Perro`, `Gato` o `Pájaro`.
@@ -98,6 +116,12 @@ La POO es importante porque facilita:
     |**Elemento**|**Acción**   |**Destino**           |
     |------------|-------------|----------------------|
     |**Megáfono**|Envía mensaje|**Animal (Polimorfo)**|
+
+    ### Explicación
+
+    * La **Clase Padre (Animal)** define el método emitirSonido() como una interfaz o comportamiento general.
+    * Las **Clases Hijas (Perro, Gato, Pájaro)** implementan este método de forma distinta, devolviendo sonidos específicos según la clase.
+    * El megáfono simboliza un intermediario que envía el mismo mensaje a distintos tipos de objetos, demostrando cómo cada uno responde de manera única.
 
 ## Requisitos Iniciales del Sistema
 
