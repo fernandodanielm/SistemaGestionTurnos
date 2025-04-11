@@ -1,4 +1,4 @@
-# SistemaGestionTurnos
+# Nombre de la aplicació - SistemaGestionTurnos
 
 
 | **Fernando Molina** |
@@ -14,6 +14,5 @@ Este repositorio contiene el diseño conceptual inicial de un sistema de gestió
 
 ## Diagramas y Diseños
 
-Este enlace dentro del **README.md** dirige al archivo **introduccion.md**.
 
-[Anexo - Introducción al Diseño Orientado a Objetos](/Actividad-n°1/introduccion.md)
+[Anexos](/Actividad-n°1/anexos.md)
