@@ -35,8 +35,8 @@ La POO es importante porque facilita:
 
     ### Explicación
 
-    * Los atributos (objetosValiosos y combinación) están protegidos (indicados con - como privados).
-    * Los métodos (abrir(), cerrar(), verificarCodigo()) son públicos (indicados con +) y definen la interacción con la clase.
+    * Los atributos (`objetosValiosos` y `combinación`) están protegidos (indicados con - como privados).
+    * Los métodos (`abrir()`, `cerrar()`, `verificarCodigo()`) son públicos (indicados con +) y definen la interacción con la clase.
     * La relación muestra cómo **Persona** interactúa con **CajaFuerte** utilizando los métodos.
 
 
@@ -60,8 +60,8 @@ La POO es importante porque facilita:
 
     ### Explicación
 
-    * La **Clase Televisor** encapsula los **atributos privados** (circuitosInternos y componentes), ocultando los detalles técnicos de su funcionamiento.
-    * Los **métodos públicos** (encender(), apagar(), cambiarCanal(), subirVolumen()) permiten a los usuarios interactuar con el televisor sin preocuparse por su implementación interna.
+    * La **Clase Televisor** encapsula los **atributos privados** (`circuitosInternos` y `componentes`), ocultando los detalles técnicos de su funcionamiento.
+    * Los **métodos públicos** (`encender()`, `apagar()`, `cambiarCanal()`, `subirVolumen()`) permiten a los usuarios interactuar con el televisor sin preocuparse por su implementación interna.
     * La relación muestra que el **Usuario** solo accede a la funcionalidad esencial del televisor mediante botones.
 
 3.  **Herencia:**
@@ -119,7 +119,7 @@ La POO es importante porque facilita:
 
     ### Explicación
 
-    * La **Clase Padre (Animal)** define el método emitirSonido() como una interfaz o comportamiento general.
+    * La **Clase Padre (Animal)** define el método `emitirSonido()` como una interfaz o comportamiento general.
     * Las **Clases Hijas (Perro, Gato, Pájaro)** implementan este método de forma distinta, devolviendo sonidos específicos según la clase.
     * El megáfono simboliza un intermediario que envía el mismo mensaje a distintos tipos de objetos, demostrando cómo cada uno responde de manera única.
 
