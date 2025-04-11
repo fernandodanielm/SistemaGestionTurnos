@@ -21,20 +21,83 @@ La POO es importante porque facilita:
     * **Ejemplo del Mundo Real:** Imagina una **caja fuerte**. Contiene objetos valiosos (datos) y tiene una cerradura y una combinación (métodos) para acceder a ellos. No puedes acceder directamente al contenido de la caja fuerte sin usar la combinación correcta. De manera similar, en POO, los atributos de un objeto están protegidos y solo se pueden modificar o acceder a través de los métodos definidos en su clase.
     * **Boceto:** Representación visual de una caja fuerte con una flecha indicando la interacción a través de la cerradura/combinación.
 
+    |**Clase**      |**Atributos**    |**Métodos**        |
+    |---------------|-----------------|-------------------|
+    |**CajaFuerte** |- objetosValiosos|+ abrir()          |
+    |               |- combinacion    |+ cerrar()         |
+    |               |                 |+ verificarCodigo()|
+
+    ### Relación
+
+    |**Elemento**|**Acción**     |**Destino**   |
+    |------------|---------------|--------------|
+    |**Persona** |Usa combinación|**CajaFuerte**|
+
+
 2.  **Abstracción:**
     * **Descripción:** La abstracción se centra en mostrar solo la información esencial de un objeto al mundo exterior, ocultando los detalles complejos de su implementación interna. Permite manejar la complejidad al enfocarse en "qué hace" un objeto en lugar de "cómo lo hace".
     * **Ejemplo del Mundo Real:** Considera un **televisor**. Para usarlo, interactúas con botones como "Encender", "Apagar", "Cambiar Canal", "Subir Volumen". No necesitas saber cómo funcionan internamente los circuitos electrónicos para disfrutar de la televisión. Los botones representan la interfaz abstracta que te permite interactuar con la funcionalidad esencial del televisor.
     * **Boceto:** Diagrama de un televisor con los botones principales resaltados, simbolizando la interfaz visible, y una sección sombreada representando la complejidad interna oculta.
+
+    |**Clase**    |**Atributos**      |**Métodos**     |
+    |-------------|-------------------|----------------|
+    |**Televisor**|- circuitosInternos|+ encender()    | 
+    |             |- componentes      |+ apagar()      |
+    |             |                   |+ cambiarCanal()|
+    |             |                   |+ subirVolumen()|
+
+    ### Relación
+
+    |**Elemento**|**Acción** |**Destino**  |
+    |------------|-----------|-------------|
+    |**Usuario** |Usa botones|**Televisor**|
 
 3.  **Herencia:**
     * **Descripción:** La herencia es un mecanismo que permite a una clase (clase hija o subclase) heredar atributos y métodos de otra clase (clase padre o superclase). Esto promueve la reutilización de código y la creación de jerarquías de clases con características comunes.
     * **Ejemplo del Mundo Real:** Piensa en diferentes tipos de **vehículos**. Un `Automóvil`, una `Motocicleta` y un `Camión` son todos vehículos. Comparten características comunes como tener ruedas, un motor y la capacidad de moverse. La clase `Vehículo` podría definir estos atributos y métodos generales, y las clases `Automóvil`, `Motocicleta` y `Camión` heredarían estas características, añadiendo sus propias particularidades (por ejemplo, un automóvil tiene cuatro puertas, una motocicleta tiene dos ruedas, un camión puede transportar carga pesada).
     * **Boceto:** Diagrama de herencia con una clase base "Vehículo" y flechas apuntando a las subclases "Automóvil", "Motocicleta" y "Camión".
 
+    |**Clase Padre**|**Atributos** |**Métodos**|
+    |---------------|--------------|-----------|
+    |**Vehículo**   |- ruedas      |+ mover()  |
+    |               |- motor       |+ frenar() |
+
+    ### Clases Hijas (Heredan de Vehículo)
+
+    |**Clase Hija** |**Atributos Adicionales**|**Métodos Adicionales**|
+    |---------------|-------------------------|-----------------------|
+    |**Automóvil**  |- puertas (4)            |+ encenderLuces()      |
+    |**Motocicleta**|- ruedas (2)             |+ activarCasco()       |
+    |**Camión**     |- capacidadCarga         |+ engancharRemolque()  |
+
+    ### Relación
+
+     |**Elemento** |**Acción**   |**Destino** |
+     |-------------|-------------|------------|             
+     |**Conductor**|Usa vehículo |**Vehículo**|
+
 4.  **Polimorfismo:**
     * **Descripción:** El polimorfismo (que significa "muchas formas") permite que objetos de diferentes clases respondan al mismo mensaje (llamada a un método) de manera diferente. Esto proporciona flexibilidad y extensibilidad al código.
     * **Ejemplo del Mundo Real:** Considera la acción de "hacer un sonido". Un `Perro` hace "guau", un `Gato` hace "miau" y un `Pájaro` hace "pío". Todos responden al mismo concepto de "hacer un sonido", pero la forma en que lo hacen es diferente según su tipo. En POO, podrías tener un método llamado `emitirSonido()` que se comporta de forma distinta cuando se invoca en un objeto de la clase `Perro`, `Gato` o `Pájaro`.
     * **Boceto:** Ilustración de un megáfono con flechas dirigidas a representaciones de un perro (con el texto "guau"), un gato ("miau") y un pájaro ("pío"), mostrando diferentes respuestas al mismo "mensaje".
+
+    |**Clase Padre**|**Métodos**   |
+    |---------------|--------------|
+    |**Animal**     |+ emitirSonido|
+
+    ### Clases Hijas (Implementan el Método)
+
+    |**Clase Hija**|**Método emitirSonido()**|
+    |--------------|-------------------------|
+    |**Perro**     |Retorna "guau"           |
+    |**Gato**      |Retorna "miau"           |
+    |**Pájaro**    |Retorna "pío"            |
+
+    ### Relación
+
+    |**Elemento**|**Acción**   |**Destino**           |
+    |------------|-------------|----------------------|
+    |**Megáfono**|Envía mensaje|**Animal (Polimorfo)**|
 
 ## Requisitos Iniciales del Sistema
 
