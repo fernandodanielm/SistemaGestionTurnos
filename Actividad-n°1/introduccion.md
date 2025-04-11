@@ -127,7 +127,7 @@ La POO es importante porque facilita:
 
 Este es el boceto inicial del diseño de clases, incrustado como una imagen y con un enlace para su visualización.
 
-[![Boceto de Clases](/Actividad-n°1/SistemaGestionDeTurnos.jpg)
+![Boceto de Clases](/Actividad-n°1/SistemaGestionDeTurnos.jpg)
 
 [Enlace para visualizar el boceto en línea](https://1drv.ms/i/c/f2bf844ed8279638/EQAHqDxcjPtFin4mgWPrY9sB9WBt2ldDwuvn-qlq2V_IQQ?e=bTCOKZ)
 
@@ -142,5 +142,5 @@ Este boceto inicial presenta las clases fundamentales identificadas para el sist
 
 Las relaciones iniciales visualizadas en el boceto (a través de líneas) sugieren asociaciones entre estas clases. Por ejemplo, un `Paciente` puede tener múltiples `Turno`s, y un `Medico` también puede tener múltiples `Turno`s. La `Recepcionista` interactúa con `Paciente`s, `Medico`s y `Turno`s para gestionar el sistema.
 
-**Nota importante**
+
 
